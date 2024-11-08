@@ -73,6 +73,7 @@
     </dependencies>
 
     <build>
+        <finalName>k2-rci-api-products-runner</finalName>
         <plugins>
             <plugin>
                 <groupId>${quarkus.platform.group-id}</groupId>
