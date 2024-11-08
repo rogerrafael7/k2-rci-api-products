@@ -17,6 +17,7 @@
         <quarkus.platform.version>3.16.2</quarkus.platform.version>
         <skipITs>true</skipITs>
         <surefire-plugin.version>3.5.0</surefire-plugin.version>
+        <quarkus.package.type>uber-jar</quarkus.package.type>
     </properties>
 
     <dependencyManagement>
@@ -73,7 +74,7 @@
     </dependencies>
 
     <build>
-        <finalName>k2-rci-api-products-runner</finalName>
+        <finalName>k2-rci-api-products</finalName>
         <plugins>
             <plugin>
                 <groupId>${quarkus.platform.group-id}</groupId>
